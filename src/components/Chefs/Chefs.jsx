@@ -96,21 +96,24 @@ const Chefs = () => {
                         >
                             <IconButton
                                 aria-label="Facebook"
-                                href={chef.fbHandle}
+                                href={chef.socialMedia.facebook}
+                                target="display"
                                 sx={{ color: restaurantDetails.themeColor }}
                             >
                                 <FacebookIcon />
                             </IconButton>
                             <IconButton
                                 aria-label="Twitter"
-                                href={chef.twitterHandle}
+                                href={chef.socialMedia.twitter}
+                                target="display"
                                 sx={{ color: restaurantDetails.themeColor }}
                             >
                                 <TwitterIcon />
                             </IconButton>
                             <IconButton
                                 aria-label="Instagram"
-                                href={chef.instaHandle}
+                                href={chef.socialMedia.instagram}
+                                target="display"
                                 sx={{ color: restaurantDetails.themeColor }}
                             >
                                 <InstagramIcon />
